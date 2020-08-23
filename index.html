@@ -59,7 +59,7 @@
         <button data-modal-open class="open-button">Заказать услугу</button>
         <div class="backdrop is-hidden" data-modal>
         
-      <div class="modal">
+     <div class="modal">
       
           <form class="modal-form">
            <button data-modal-close class="close-button">
@@ -94,16 +94,14 @@
           <label class="label" for="comment">Комментарий</label>
             <textarea class="comment-field" name="comment" id="comment" rows="10" placeholder="Введите текст"></textarea>
 </div>
-<div class="checkbox">
-  <label class="policy-label">
-            <input class="checkboxx" type="checkbox" name="checkbox" value="policy"><span class="checkbox-icon"></span>
-        Соглашаюсь с рассылкой и принимаю <a class="form-link" href="">Условия
-          договора</a>
-          </label>
-          </div>
-            <button class="open-button" type="submit">Отправить</button>
+<div class="modal-field">
+    <label class="policy-label">
+                <input class="checkbox" type="checkbox" name="checkbox" value="policy"><span class="checkbox-icon"></span>
+    Соглашаюсь с рассылкой и принимаю <span><a class="form-link" href="">Условия договора</a></span>
+              </label>
+            <button class="form-button" type="submit">Отправить</button>
+            </div>
           </form>
-        </button>
         </div>
         </div>
       </section>
@@ -470,7 +468,7 @@
       <form class="footer-form-container">
         <label class="footer-label" for="footer-form" class="join-us">подпишитесь на рассылку</label>
 <input class="footer-form" type="email" name="email" id="footer-form" placeholder="E-mail">
-<button class="footer-button">Подписаться<svg class="footer-icon" width="24px" heigh="24px">
+<button class="footer-button">Подписаться<svg class="footer-icon">
     <use href="./images/symbol-defs.svg#footer-icon"></use>
   </svg>
 </button>
