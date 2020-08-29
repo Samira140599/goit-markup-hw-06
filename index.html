@@ -87,20 +87,21 @@
             <label class="label" for="email">Почта</label>
             <input class="field" type="email" name="email" id="email">
             <svg class="mail-svg" width="12px" height="12px">
-              <use href="./images/symbol-defs.svg#mail-icon"></use>
+              <use href="../images/symbol-defs.svg#mail-icon"></use>
             </svg>
 </div>
 <div class= "modal-field">
           <label class="label" for="comment">Комментарий</label>
             <textarea class="comment-field" name="comment" id="comment" rows="10" placeholder="Введите текст"></textarea>
 </div>
-<div class="modal-field">
-    <label class="policy-label">
-                <input class="checkbox" type="checkbox" name="checkbox" value="policy"><span class="checkbox-icon"></span>
-    Соглашаюсь с рассылкой и принимаю <span><a class="form-link" href="">Условия договора</a></span>
-              </label>
-            <button class="form-button" type="submit">Отправить</button>
+<div class="checkbox-field">
+    <input class="checkbox" type="checkbox" name="checkbox" id="checkbox" value="policy" > 
+  <label class="policy-label" for="checkbox">Соглашаюсь с рассылкой и принимаю <span><a class="form-link" href="">Условия договора</a></span></label>
             </div>
+            <div class="button-field">
+  <button class="form-button" type="submit">Отправить</button>
+  </div>
+            
           </form>
         </div>
         </div>
